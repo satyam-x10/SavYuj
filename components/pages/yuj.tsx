@@ -8,11 +8,11 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { CardContent, Card } from "@/components/ui/card"
 
-export function Yuj() {
+export default function Yuj() {
   return (
-    <>      
+    <div>      
       <section className="w-full py-6 md:py-12 lg:py-16">
-        <div className="container grid md:grid-cols-3 gap-6 px-4 md:px-6">
+        <div className=" grid md:grid-cols-3 gap-6 px-4 md:px-6">
           <div className="flex flex-col gap-2 md:grid md:gap-1 lg:gap-2">
             <div className="space-y-1">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Study Group</h1>
@@ -124,7 +124,7 @@ export function Yuj() {
           </div>
         </div>
       <aside className="w-full py-6 md:py-12">
-        <div className="container px-4 md:px-6">
+        <div className=" px-4 md:px-6">
           <div className="space-y-2">
             <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">Members</h2>
             <p className="text-gray-500 dark:text-gray-400">Meet the members of the study group.</p>
@@ -172,33 +172,11 @@ export function Yuj() {
           </div>
         </div>
       </aside>
-    </>
+    </div>
   )
 }
 
-
-function GraduationCapIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-      <path d="M6 12v5c3 3 9 3 12 0v-5" />
-    </svg>
-  )
-}
-
-
-function UsersIcon(props) {
+function UsersIcon(props: any) {
   return (
     <svg
       {...props}

@@ -25,7 +25,7 @@ export function LoginSignup() {
     }
   }
   return (
-    <div className="mt-4">
+    <div className="mt-[20vh] px-6">
       {login && <div className="mx-auto space-y-6 max-w-sm">
         <div className="space-y-2 text-center">
           <h1 className="text-3xl font-bold">Lets Login</h1>
@@ -50,7 +50,7 @@ export function LoginSignup() {
         </div>
         <Separator className="my-8" />
         <div className="space-y-2">
-          <Button onClick={handleLogin} className="w-1/2">New ?? Create an account</Button>
+          <Button onClick={handleLogin} className="w-full">New ?? Create an account</Button>
         </div>
 
       </div>

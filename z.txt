@@ -1,0 +1,19 @@
+------to be components
+image (logo)---
+list ul(navbar lists)
+icon and text (usericon)--
+Buttton like div
+Buttons
+link text
+Image 
+circle Buttons with image inside
+Message cards
+search bar 
+accordions
+Tags (alma, wiss, esumit, groupname, senior)
+poll
+Pricing cards
+event card(text and an optional button)
+
+
+

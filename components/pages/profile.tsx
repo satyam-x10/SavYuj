@@ -8,7 +8,7 @@ export function Profile() {
   return (
     <>
       <div className="bg-black py-6 w-full">
-        <div className="container px-4 md:px-6">
+        <div className=" px-4 md:px-6">
           <div className="grid gap-4 md:gap-8 items-center md:grid-cols-2 lg:gap-12">
             <div className="flex items-center space-x-4">
               <Avatar className="border h-24 w-24 border-white shadow-lg">
@@ -49,7 +49,7 @@ export function Profile() {
         </div>
       </div>
       <div className="w-full py-6">
-        <div className="container px-4 md:px-6">
+        <div className=" px-4 md:px-6">
           <div className="grid gap-6 lg:gap-12">
             <div className="space-y-2">
               <h2 className="text-xl font-semibold">Education</h2>
@@ -74,6 +74,7 @@ export function Profile() {
           </div>
         </div>
       </div>
+      
     </>
   )
 }

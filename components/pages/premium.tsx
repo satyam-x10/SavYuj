@@ -7,19 +7,23 @@ import { Button } from "@/components/ui/button"
 export function Premium() {
   return (
     <div><section className="min-h-screen w-full py-12 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-zinc-900 dark:to-zinc-800 flex items-center justify-center">
-      <div>
+      <div className="hidden md:block">
         <h2 className="text-4xl font-bold text-center text-black dark:text-white">Pricing Plans</h2>
         <p className="mt-4 text-center text-black dark:text-white">Choose the right plan for your team. All plans include a 7-day free trial.</p>
       </div>
-      <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-3 md:gap-8">
-          <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-200 border-gray-300 dark:border-gray-800">
+      <div className=" px-4 md:px-6">
+        <div className="grid grid-cols-1 gap-6 mt-8 lg:grid-cols-3 md:gap-8">
+          <div className=" md:hidden">
+            <h2 className="text-4xl font-bold text-center text-black dark:text-white">Pricing Plans</h2>
+            <p className="mt-4 text-center text-black dark:text-white">Choose the right plan for your team. All plans include a 7-day free trial.</p>
+          </div>
+          <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300 dark:border-gray-800">
             <div>
               <h3 className="text-2xl font-bold text-center">Basic</h3>
               <div className="mt-4 text-center text-black dark:text-black">
                 <span className="text-4xl font-bold">$29</span>/ month
               </div>
-              <ul className="mt-4 space-y-2 text-black text-black">
+              <ul className="mt-4 space-y-2 text-black">
                 <li className="flex items-center">
                   <CheckIcon className="text-black text-xs bg-green-500 rounded-full mr-2 p-1" />
                   720p Video Rendering
@@ -38,7 +42,7 @@ export function Premium() {
               <Button className="w-full dark:bg-black dark:text-white">Get Started</Button>
             </div>
           </div>
-          <div className="relative flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-200 border-purple-500 dark:border-gray-800">
+          <div className="relative flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-purple-500 dark:border-gray-800">
             <div className="px-3 py-1 text-sm text-black bg-gradient-to-r from-pink-500 to-purple-500 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               Popular
             </div>
@@ -70,7 +74,7 @@ export function Premium() {
               <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">Get Started</Button>
             </div>
           </div>
-          <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-200 border-gray-300 dark:border-gray-800">
+          <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border  border-gray-300 dark:border-gray-800">
             <div>
               <h3 className="text-2xl font-bold text-center">Enterprise</h3>
               <div className="mt-4 text-center text-black dark:text-black">
@@ -111,7 +115,7 @@ export function Premium() {
 }
 
 
-function CheckIcon(props:any) {
+function CheckIcon(props: any) {
   return (
     <svg
       {...props}

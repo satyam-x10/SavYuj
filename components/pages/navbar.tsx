@@ -9,7 +9,7 @@ export function Navbar() {
   return (
     <div className="w-full overflow-hidden">
       <header className="w-full">
-        <div className="container flex items-center justify-between h-[60px] px-4 md:px-6">
+        <div className="flex items-center justify-between h-[60px] px-4 md:px-6 w-full">
           <Link className="flex items-center space-x-2 font-medium" href="#">
             <FlagIcon className="h-6 w-6" />
             <span className="text-lg font-semibold">Home</span>

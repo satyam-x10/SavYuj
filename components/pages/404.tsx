@@ -34,7 +34,6 @@ export default function Error404() {
             </div>}</div>
             <div>
                 {playGame && <div className="flex flex-col items-center justify-center h-screen">
-                    <Tetris />
                     <Link href="/">
                         <Button>Go to Homepage</Button>
                     </Link>

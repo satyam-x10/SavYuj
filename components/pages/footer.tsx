@@ -3,11 +3,12 @@
  * @see https://v0.dev/t/y6amrIKaAo3
  */
 import Link from "next/link"
-
+import { FcFaq } from "react-icons/fc";
 export function Footer() {
+
   return (
     <footer className="w-full py-6">
-      <div className="container flex items-center justify-between px-4 md:px-6 w-full">
+      <div className=" flex items-center justify-between px-4 md:px-6 w-full">
         <div className="flex items-center space-x-2">
           <img
             alt="Logo"
@@ -24,6 +25,7 @@ export function Footer() {
         </div>
         <div>All Rights Reserved</div>
         <div className="grid grid-flow-col auto-cols-fr min-w-0 items-center justify-end gap-4">
+          <Link href="/faq" ><FcFaq size={40}/></Link>
           <Link
             className="rounded-full flex h-8 items-center justify-center border border-gray-200 bg-white w-8 p-2 shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
             href="#"
@@ -59,7 +61,7 @@ export function Footer() {
 }
 
 
-function FacebookIcon(props) {
+function FacebookIcon(props:any) {
   return (
     <svg
       {...props}
@@ -79,7 +81,7 @@ function FacebookIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props:any) {
   return (
     <svg
       {...props}
@@ -99,7 +101,7 @@ function TwitterIcon(props) {
 }
 
 
-function InstagramIcon(props) {
+function InstagramIcon(props:any) {
   return (
     <svg
       {...props}
@@ -121,7 +123,7 @@ function InstagramIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props:any) {
   return (
     <svg
       {...props}
