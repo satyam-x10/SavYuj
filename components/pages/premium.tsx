@@ -114,7 +114,6 @@ export function Premium() {
   )
 }
 
-
 function CheckIcon(props: any) {
   return (
     <svg
