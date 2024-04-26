@@ -1,11 +1,11 @@
-import React from 'react'
-import { Blog } from '@/components/pages/blog'
+import React from "react";
+import { Blog } from "@/components/pages/blog";
 const YujPage = () => {
   return (
     <div>
-      <Blog/>
+      <Blog />
     </div>
-  )
-}
+  );
+};
 
-export default YujPage
+export default YujPage;

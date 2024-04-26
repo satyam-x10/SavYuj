@@ -1,9 +1,7 @@
-import React from 'react'
-import { Faq } from '@/components/pages/faq'
+import React from "react";
+import { Faq } from "@/components/pages/faq";
 const FaqPage = () => {
-  return (
-    <Faq/>
-  )
-}
+  return <Faq />;
+};
 
-export default FaqPage
+export default FaqPage;

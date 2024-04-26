@@ -4,7 +4,6 @@
  */
 import { MdOutlineVerticalAlignTop } from "react-icons/md";
 
-
 export function Groups() {
   return (
     <div className="flex flex-col m-auto">
@@ -17,8 +16,12 @@ export function Groups() {
         <div className=" grid max-w-5xl items-center gap-4 px-4 text-center md:gap-8 md:px-6 lg:grid-cols-2 lg:text-left xl:max-w-6xl xl:gap-10">
           <div className="space-y-4 h-full">
             <div className="space-y-3 sticky top-10 ">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">The Groups of ur College</h2>
-              <p className="text-gray-500 dark:text-gray-400">Join one or request the admin.</p>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                The Groups of ur College
+              </h2>
+              <p className="text-gray-500 dark:text-gray-400">
+                Join one or request the admin.
+              </p>
               <img
                 alt="Water"
                 className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
@@ -70,7 +73,8 @@ export function Groups() {
                 width="200"
               />
               <div className="text-sm text-gray-500">Characters: 140</div>
-            </div><div className="flex flex-col gap-2">
+            </div>
+            <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2">
                 <div className="font-semibold">Fire</div>
                 <div className="text-sm text-gray-500">Flames</div>
@@ -83,7 +87,8 @@ export function Groups() {
                 width="200"
               />
               <div className="text-sm text-gray-500">Characters: 140</div>
-            </div><div className="flex flex-col gap-2">
+            </div>
+            <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2">
                 <div className="font-semibold">Fire</div>
                 <div className="text-sm text-gray-500">Flames</div>
@@ -157,9 +162,8 @@ export function Groups() {
         </div>
       </section>
       <span className="fixed right-10 bottom-10 border border-white rounded-full p-3">
-        <MdOutlineVerticalAlignTop size={40}/>
+        <MdOutlineVerticalAlignTop size={40} />
       </span>
-      </div>
-
-  )
+    </div>
+  );
 }

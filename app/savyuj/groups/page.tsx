@@ -1,9 +1,7 @@
-import React from 'react'
-import { Groups } from '@/components/pages/groups'
+import React from "react";
+import { Groups } from "@/components/pages/groups";
 const YujPage = () => {
-  return (
-    <Groups/>
-  )
-}
+  return <Groups />;
+};
 
-export default YujPage
+export default YujPage;

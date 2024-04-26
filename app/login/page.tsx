@@ -1,9 +1,7 @@
-import React from 'react'
-import { LoginSignup } from '@/components/pages/login_signup'
+import React from "react";
+import { LoginSignup } from "@/components/pages/login_signup";
 const Login = () => {
-  return (
-    <LoginSignup/>
-  )
-}
+  return <LoginSignup />;
+};
 
-export default Login
+export default Login;

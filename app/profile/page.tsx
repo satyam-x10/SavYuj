@@ -1,14 +1,15 @@
-import React, { ReactNode } from "react";
+import React from "react";
+import { Profile } from "@/components/pages/profile";
 import { Navbar } from "@/components/pages/navbar";
 import { Footer } from "@/components/pages/footer";
-const Savyuj = ({ children }: { children: ReactNode }) => {
+const ProfilePage = () => {
   return (
     <div>
       <Navbar />
-      {children}
+      <Profile />
       <Footer />
     </div>
   );
 };
 
-export default Savyuj;
+export default ProfilePage;

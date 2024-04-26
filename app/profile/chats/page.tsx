@@ -1,7 +1,7 @@
 import React from "react";
-import Yuj from "@/components/pages/yuj";
+import { Chat } from "@/components/pages/chat";
 const YujPage = () => {
-  return <Yuj />;
+  return <Chat />;
 };
 
 export default YujPage;

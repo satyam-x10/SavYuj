@@ -1,10 +1,8 @@
 import { Premium } from "@/components/pages/premium";
-import React from 'react'
+import React from "react";
 
 const PremiumPage = () => {
-  return (
-    <Premium/>
-  )
-}
+  return <Premium />;
+};
 
-export default PremiumPage
+export default PremiumPage;

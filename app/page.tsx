@@ -10,25 +10,13 @@ import { Navbar } from "@/components/pages/navbar";
 import { Profile } from "@/components/pages/profile";
 import { Poll } from "@/components/pages/poll";
 import { Premium } from "@/components/pages/premium";
-import { Yuj } from "@/components/pages/yuj";
-import {Hero}  from "@/components/pages/hero";
+import { Hero } from "@/components/pages/hero";
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <Hero/>
+      <Hero />
       <Footer />
-      {/* <Blog /> */}
-      {/* <Chat /> */}
-      {/* <Discussion /> */}
-      {/* <Faq /> */}
-      {/* <Groups /> */}
-      {/* <LoginSignup /> */}
-      {/* <Profile /> */}
-      {/* <Poll /> */}
-      {/* <Premium /> */}
-      {/* <Yuj /> */}
-      {/* <Error404 /> */}
     </main>
   );
 }

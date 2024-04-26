@@ -3,12 +3,16 @@
  * @see https://v0.dev/t/q78qlbK
  */
 
-'use client'
-import { AccordionTrigger, AccordionContent, AccordionItem, Accordion } from "@/components/ui/accordion"
-import { CardContent, Card } from "@/components/ui/card"
-import { useState } from "react"
+"use client";
+import {
+  AccordionTrigger,
+  AccordionContent,
+  AccordionItem,
+  Accordion,
+} from "@/components/ui/accordion";
+import { CardContent, Card } from "@/components/ui/card";
+import { useState } from "react";
 export function Faq() {
-
   return (
     <div className="flex flex-col justify-center items-center min-h-screen p-10">
       <input
@@ -24,15 +28,18 @@ export function Faq() {
               <AccordionTrigger className="hover:underline-none">
                 Why does turning my device off and on again solve all issues?
               </AccordionTrigger>
-              <AccordionContent>Because it clears the memory and starts the system from scratch.</AccordionContent>
+              <AccordionContent>
+                Because it clears the memory and starts the system from scratch.
+              </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger className="hover:underline-none">
                 Are extra cables in the box bonus decorations?
               </AccordionTrigger>
               <AccordionContent>
-                As tempting as it is to weave them into artistic sculptures, those cables are essential for connecting,
-                charging, and beaming digital magic.
+                As tempting as it is to weave them into artistic sculptures,
+                those cables are essential for connecting, charging, and beaming
+                digital magic.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
@@ -40,8 +47,8 @@ export function Faq() {
                 Can I wear my VR headset to my cousin's wedding?
               </AccordionTrigger>
               <AccordionContent>
-                Yes but you might end up inadvertently dodging invisible dance partners or trying to high-five digital
-                confetti.
+                Yes but you might end up inadvertently dodging invisible dance
+                partners or trying to high-five digital confetti.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
@@ -49,8 +56,8 @@ export function Faq() {
                 How often should I update my software?
               </AccordionTrigger>
               <AccordionContent>
-                It's recommended to keep your software up to date to ensure you have the latest security patches and
-                features.
+                It's recommended to keep your software up to date to ensure you
+                have the latest security patches and features.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem className="border-b-0" value="item-5">
@@ -58,13 +65,14 @@ export function Faq() {
                 Why does my device get hot when I'm using it?
               </AccordionTrigger>
               <AccordionContent>
-                Devices can generate heat during operation, especially when running intensive tasks. This is normal, but
-                if it gets too hot, it may indicate a problem.
+                Devices can generate heat during operation, especially when
+                running intensive tasks. This is normal, but if it gets too hot,
+                it may indicate a problem.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
         </CardContent>
       </Card>
     </div>
-  )
+  );
 }
