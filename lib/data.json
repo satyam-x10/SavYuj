@@ -1,0 +1,480 @@
+{
+    "email": "21mm01002@iitbbs.ac.in",
+    "Profile": {
+        "id": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+        "name": "Satyam kumar",
+        "phone": "1234567890",
+        "nickname": "Sattu",
+        "DOB": "2002-10-02",
+        "password": "12345678",
+        "Batch": " Metallurgy 2021",
+        "Ratings": "4.5",
+        "ProfileIMG": "https://www.iitbbs.ac.in/images/campus-view-360.jpg",
+        "Bio": "Satyam Kumar, also known as Sattu, is a Metallurgy student from the class of 2021. Born on October 2, 2002, he brings a blend of energy and determination to his studies. With a strong academic record reflected in his 4.5 ratings, Satyam is poised to make meaningful contributions in the field of metallurgy.",
+        "Education": [
+            {
+                "degree": "High School",
+                "school": "Dav Public School",
+                "graduation": "2018",
+                "percentage": "89%"
+            },
+            {
+                "degree": "Intermediate",
+                "school": "Shatabdi Public School",
+                "graduation": "2020",
+                "percentage": "79.5%"
+            },
+            {
+                "degree": "B.Tech",
+                "school": "IIT BBS",
+                "graduation": "2025",
+                "percentage": "6.5 CGPA"
+            }
+        ],
+        "Yujs": [
+            {
+                "id": " 438604b0f2464a109df9a3c8353b0a390d50ccab1b50e20466a294097d0b1872",
+                "name": "Alma Fiesta"
+            },
+            {
+                "id": " 9a3c8353b0a3909df0ccab1b50e20466a294097d0b18720d5438604b0f2464a1",
+                "name": "Wissenaire"
+            },
+            {
+                "id": " 8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b18729a3c",
+                "name": "E-summit"
+            }
+        ],
+        "Blogs": [
+            {
+                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                "title": "The Metallurgy of Iron"
+            },
+            {
+                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                "title": "The Metallurgy of Copper"
+            },
+            {
+                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                "title": "The Metallurgy of Aluminium"
+            }
+        ]
+    },
+    "organisation": {
+        "name": "IIT BBS",
+        "CollegeIMG": "https://www.iitbbs.ac.in/images/campus-view-360.jpg",
+        "location": "Bhubaneswar, Odisha",
+        "website": "https://www.iitbbs.ac.in/",
+        "Bio": "Indian Institute of Technology Bhubaneswar (IIT Bhubaneswar or IIT BBS) is a public technical and research university established by the government of India in 2008, located at Bhubaneswar, Odisha, India. It is one of the eight new Indian Institutes of Technology (IITs) established by the Ministry of Human Resource Development, Government of India under The Institutes of Technology (Amendment) Act, 2011 which establishes the eight new IITs as well as declares IT-BHU as Indian Institute of Technology (Banaras Hindu University), Varanasi.",
+        "yujs": [
+            {
+                "name": "Alma Fiesta",
+                "id": " 438604b0f2464a109df9a3c8353b0a390d50ccab1b50e20466a294097d0b1872",
+                "admin": "Satyam kumar",
+                "Bio": "Alma Fiesta is the annual socio-cultural fest of IIT Bhubaneswar. It is a three-day event that brings together students from various colleges across the country to participate in a wide range of events, including dance, music, drama, and literary competitions. The fest also features performances by renowned artists and bands, making it a must-attend event for students and music lovers alike.",
+                "SocialMedia": {
+                    "Instagram": "https://www.instagram.com/almafiesta.iitbbs/",
+                    "Facebook": "https://www.facebook.com/almafiesta.iitbbs/",
+                    "Twitter": "https://twitter.com/almafiesta_iitb"
+                },
+                "members": {
+                    "Satyam kumar": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Rahul": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Rohit": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Raj": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Riya": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+                },
+                "services": [
+                    {
+                        "name": "Polls",
+                        "details": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Should we Kick out admin",
+                                "options": [
+                                    "Yes",
+                                    "No",
+                                    "idk"
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Should we Organise the fest",
+                                "options": [
+                                    "Yes",
+                                    "No",
+                                    "idk"
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Who wants to leave? ",
+                                "options": [
+                                    "I do",
+                                    "i dont",
+                                    "not sure"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Discussions",
+                        "details": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "How was the oraganisation",
+                                "comments": [
+                                    {
+                                        "name": "Satyam kumar",
+                                        "comment": "It was good"
+                                    },
+                                    {
+                                        "name": "Rahul",
+                                        "comment": "It was bad"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Someone lost a phone",
+                                "comments": [
+                                    {
+                                        "name": "Satyam kumar",
+                                        "comment": "I lost it"
+                                    },
+                                    {
+                                        "name": "Rahul kumar",
+                                        "comment": "I found it"
+                                    },
+                                    {
+                                        "name": "Ravi kumar",
+                                        "comment": "rahul is lying"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blogs",
+                        "Hashes": [
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+                        ]
+                    },
+                    {
+                        "name": "Meetings",
+                        "Hashes": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Alma Fiesta",
+                "id": " 438604b0f2464a109df9a3c8353b0a390d50ccab1b50e20466a294097d0b1872",
+                "admin": "Satyam kumar",
+                "Bio": "Alma Fiesta is the annual socio-cultural fest of IIT Bhubaneswar. It is a three-day event that brings together students from various colleges across the country to participate in a wide range of events, including dance, music, drama, and literary competitions. The fest also features performances by renowned artists and bands, making it a must-attend event for students and music lovers alike.",
+                "SocialMedia": {
+                    "Instagram": "https://www.instagram.com/almafiesta.iitbbs/",
+                    "Facebook": "https://www.facebook.com/almafiesta.iitbbs/",
+                    "Twitter": "https://twitter.com/almafiesta_iitb"
+                },
+                "members": {
+                    "Satyam kumar": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Rahul": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Rohit": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Raj": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Riya": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+                },
+                "services": [
+                    {
+                        "name": "Polls",
+                        "details": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Should we Kick out admin",
+                                "options": [
+                                    "Yes",
+                                    "No",
+                                    "idk"
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Should we Organise the fest",
+                                "options": [
+                                    "Yes",
+                                    "No",
+                                    "idk"
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Who wants to leave? ",
+                                "options": [
+                                    "I do",
+                                    "i dont",
+                                    "not sure"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Discussions",
+                        "details": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "How was the oraganisation",
+                                "comments": [
+                                    {
+                                        "name": "Satyam kumar",
+                                        "comment": "It was good"
+                                    },
+                                    {
+                                        "name": "Rahul",
+                                        "comment": "It was bad"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Someone lost a phone",
+                                "comments": [
+                                    {
+                                        "name": "Satyam kumar",
+                                        "comment": "I lost it"
+                                    },
+                                    {
+                                        "name": "Rahul kumar",
+                                        "comment": "I found it"
+                                    },
+                                    {
+                                        "name": "Ravi kumar",
+                                        "comment": "rahul is lying"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blogs",
+                        "Hashes": [
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+                        ]
+                    },
+                    {
+                        "name": "Meetings",
+                        "Hashes": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Alma Fiesta",
+                "id": " 438604b0f2464a109df9a3c8353b0a390d50ccab1b50e20466a294097d0b1872",
+                "admin": "Satyam kumar",
+                "Bio": "Alma Fiesta is the annual socio-cultural fest of IIT Bhubaneswar. It is a three-day event that brings together students from various colleges across the country to participate in a wide range of events, including dance, music, drama, and literary competitions. The fest also features performances by renowned artists and bands, making it a must-attend event for students and music lovers alike.",
+                "SocialMedia": {
+                    "Instagram": "https://www.instagram.com/almafiesta.iitbbs/",
+                    "Facebook": "https://www.facebook.com/almafiesta.iitbbs/",
+                    "Twitter": "https://twitter.com/almafiesta_iitb"
+                },
+                "members": {
+                    "Satyam kumar": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Rahul": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Rohit": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Raj": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                    "Riya": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+                },
+                "services": [
+                    {
+                        "name": "Polls",
+                        "details": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Should we Kick out admin",
+                                "options": [
+                                    "Yes",
+                                    "No",
+                                    "idk"
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Should we Organise the fest",
+                                "options": [
+                                    "Yes",
+                                    "No",
+                                    "idk"
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Who wants to leave? ",
+                                "options": [
+                                    "I do",
+                                    "i dont",
+                                    "not sure"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Discussions",
+                        "details": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "How was the oraganisation",
+                                "comments": [
+                                    {
+                                        "name": "Satyam kumar",
+                                        "comment": "It was good"
+                                    },
+                                    {
+                                        "name": "Rahul",
+                                        "comment": "It was bad"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    },
+                                    {
+                                        "name": "Rohit",
+                                        "comment": "It was ok"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "que": "Someone lost a phone",
+                                "comments": [
+                                    {
+                                        "name": "Satyam kumar",
+                                        "comment": "I lost it"
+                                    },
+                                    {
+                                        "name": "Rahul kumar",
+                                        "comment": "I found it"
+                                    },
+                                    {
+                                        "name": "Ravi kumar",
+                                        "comment": "rahul is lying"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blogs",
+                        "Hashes": [
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                            " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+                        ]
+                    },
+                    {
+                        "name": "Meetings",
+                        "Hashes": [
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            },
+                            {
+                                "id": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+                                "date": "2021-10-02",
+                                "time": "12:00",
+                                "agenda": "Fest Planning"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
