@@ -3,10 +3,13 @@
  * @see https://v0.dev/t/Nny4fK3jLwz
  */
 import { MdOutlineVerticalAlignTop } from "react-icons/md";
+import Image from "next/image";
+import data from "@/lib/data.json";
 
 export function Groups() {
+  const groups = data.organisation.yujs;
   return (
-    <div className="flex flex-col m-auto">
+    <div id="top" className="flex flex-col m-auto">
       <input
         type="text"
         placeholder="Search ur Yuj..."
@@ -22,146 +25,50 @@ export function Groups() {
               <p className="text-gray-500 dark:text-gray-400">
                 Join one or request the admin.
               </p>
-              <img
-                alt="Water"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="400"
-                src="/placeholder.svg"
-                width="400"
+              <Image
+                src={"https://www.iitbbs.ac.in/images/campus-view-360.jpg"}
+                height={400}
+                width={400}
+                alt=""
               />
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 md:gap-8">
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Electric</div>
-                <div className="text-sm text-gray-500">Electricity</div>
-              </div>
-              <img
-                alt="Electric"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 150</div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Fire</div>
-                <div className="text-sm text-gray-500">Flames</div>
-              </div>
-              <img
-                alt="Fire"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 140</div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Fire</div>
-                <div className="text-sm text-gray-500">Flames</div>
-              </div>
-              <img
-                alt="Fire"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 140</div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Fire</div>
-                <div className="text-sm text-gray-500">Flames</div>
-              </div>
-              <img
-                alt="Fire"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 140</div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Fire</div>
-                <div className="text-sm text-gray-500">Flames</div>
-              </div>
-              <img
-                alt="Fire"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 140</div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Water</div>
-                <div className="text-sm text-gray-500">Aquatic</div>
-              </div>
-              <img
-                alt="Water"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 160</div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Grass</div>
-                <div className="text-sm text-gray-500">Greenery</div>
-              </div>
-              <img
-                alt="Grass"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 155</div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Psychic</div>
-                <div className="text-sm text-gray-500">Mind</div>
-              </div>
-              <img
-                alt="Psychic"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 145</div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <div className="font-semibold">Rock</div>
-                <div className="text-sm text-gray-500">Solid</div>
-              </div>
-              <img
-                alt="Rock"
-                className="mx-auto rounded-xl overflow-hidden object-cover border border-gray-200 aspect-square dark:border-gray-800"
-                height="200"
-                src="/placeholder.svg"
-                width="200"
-              />
-              <div className="text-sm text-gray-500">Characters: 150</div>
-            </div>
+            {groups.map((group, index) => (
+              <a
+                target="none"
+                href={`/savyuj/groups/${group.id}`}
+                key={index}
+                className="flex flex-col gap-2"
+              >
+                <div className="flex items-center gap-2">
+                  <div className="font-semibold">{group.name}</div>
+                  <div className="text-sm text-gray-500">
+                    {group.description}
+                  </div>
+                </div>
+                <Image
+                  src={group.image || ""}
+                  height={200}
+                  width={200}
+                  alt=""
+                />
+                <div className="text-sm text-gray-500">
+                  Members: {Object.keys(group.members).length}
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </section>
-      <span className="fixed right-10 bottom-10 border border-white rounded-full p-3">
+      <span
+        onClick={() => {
+          window.scrollTo({
+            top: 0,
+          });
+        }}
+        className="fixed bg-black right-10 bottom-10 border border-white rounded-full p-3"
+      >
         <MdOutlineVerticalAlignTop size={40} />
       </span>
     </div>

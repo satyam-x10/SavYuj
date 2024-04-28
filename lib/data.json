@@ -65,8 +65,20 @@
     "yujs": [
       {
         "name": "Alma Fiesta",
-        "id": " 438604b0f2464a109df9a3c8353b0a390d50ccab1b50e20466a294097d0b1872",
-        "admin": "Satyam kumar",
+        "id": "38604b0f2464a109df9a3c8353b0a390d50ccab1b50e20466a294097d0b1872",
+        "description": "cultural fest",
+        "image": "https://www.iitbbs.ac.in/images/campus-view-360.jpg",
+        "admin": {
+          "name": "Satyam kumar",
+          "id": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+        },
+        "mods": {
+          "Rahul": "8a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Rohit": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Raj": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Vishnu": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Riya": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+        },
         "Bio": "Alma Fiesta is the annual socio-cultural fest of IIT Bhubaneswar. It is a three-day event that brings together students from various colleges across the country to participate in a wide range of events, including dance, music, drama, and literary competitions. The fest also features performances by renowned artists and bands, making it a must-attend event for students and music lovers alike.",
         "SocialMedia": {
           "Instagram": "https://www.instagram.com/almafiesta.iitbbs/",
@@ -74,11 +86,15 @@
           "Twitter": "https://twitter.com/almafiesta_iitb"
         },
         "members": {
-          "Satyam kumar": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
-          "Rahul": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
-          "Rohit": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
-          "Raj": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
-          "Riya": " 9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
+          "Satyam kumar": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Rahul": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Rohit": "6a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Raj": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Raj1": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Raj2": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Raj3": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Raj4": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872",
+          "Riya": "9a3c8353b0a390d5438604b0f2464a109df0ccab1b50e20466a294097d0b1872"
         },
         "services": [
           {
